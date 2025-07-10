@@ -18,9 +18,6 @@ export const HeaderPage = () => {
           <NavLink className="hover:text-blue-500 duration-500">
             Service
           </NavLink>
-          <NavLink className="hover:text-blue-500 duration-500">
-            Service
-          </NavLink>
           <NavLink className="hover:text-blue-500 duration-500">Blog</NavLink>
           <NavLink className="hover:text-blue-500 duration-500">Resume</NavLink>
           <NavLink className="hover:text-blue-500 duration-500">
