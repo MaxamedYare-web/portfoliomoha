@@ -4,11 +4,11 @@ import { NavLink } from 'react-router-dom';
 export const HeaderPage = () => {
   return (
     <>
-      <header className="flex justify-between items-center pt-4 lg:px-30">
+      <header className="flex justify-around items-center pt-4 lg:px-10">
         <div className="div">
-          <h1 className="text-4xl textGradient font-bold">Portfolio</h1>
+          <h1 className="text-2xl textGradient font-bold">Portfolio</h1>
         </div>
-        <nav className="flex gap-4 text:sm font-semibold ">
+        <nav className="flex gap-4 text-md font-semibold ">
           <NavLink className="hover:text-blue-500 duration-500">Home</NavLink>
           <NavLink className="hover:text-blue-500 duration-500">About</NavLink>
           <NavLink className="hover:text-blue-500 duration-500">Skills</NavLink>
