@@ -3,6 +3,11 @@ import { NavLink } from "react-router-dom"
 
 
 export const HeaderPage = ()=>{
+
+const gColor = "#3865ec"
+const gColor2 = "#923ceb"
+
+
 return(<>
 
 <header className="flex justify-between items-center pt-4 lg:px-30">
