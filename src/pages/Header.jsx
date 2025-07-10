@@ -12,7 +12,7 @@ return(<>
 
 <header className="flex justify-between items-center pt-4 lg:px-30">
     <div className="div">
-        <h1 className="text-4xl ">Portfolio</h1>
+        <h1 className={`text-4xl textGradient font-bold `}>Portfolio</h1>
     </div>
     <nav className="flex gap-4 text-2xl">
     <NavLink>Home</NavLink>

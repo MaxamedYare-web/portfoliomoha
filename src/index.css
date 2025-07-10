@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.textGradient{
+    background: linear-gradient(90deg, 
+              #3865ec 0%, 
+              #923ceb 100%);
+  background-clip: text; 
+  color: transparent;
+}
