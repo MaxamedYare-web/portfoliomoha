@@ -1,7 +1,12 @@
-import { FiMoon } from 'react-icons/fi';
+import { useState } from 'react';
+import { FiMoon, FiSun } from 'react-icons/fi';
 import { NavLink } from 'react-router-dom';
 
 export const HeaderPage = () => {
+  const [darkMode, setDarkMode] = useState(false);
+
+  // Toggle dark mode
+
   return (
     <>
       <header className="flex justify-around items-center pt-4 lg:px-10">
@@ -25,7 +30,21 @@ export const HeaderPage = () => {
           </NavLink>
           <NavLink className="hover:text-blue-500 duration-500">Admin</NavLink>
         </nav>
-        <FiMoon />
+        {darkMode ? (
+          <button
+            className="text-2xl text-gray-700 dark:text-gray-700"
+            onClick={() => setDarkMode(!darkMode)}
+          >
+            <FiMoon />
+          </button>
+        ) : (
+          <button
+            className="text-2xl text-gray-700 dark:text-gray-700"
+            onClick={() => setDarkMode(!darkMode)}
+          >
+            <FiSun />
+          </button>
+        )}
       </header>
     </>
   );
